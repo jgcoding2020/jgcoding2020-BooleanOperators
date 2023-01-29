@@ -36,9 +36,7 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnAnd(boolean b1, boolean b2){
-        while (b1 == true && b2 == true)
-            return true;
-        return false;
+        return b1 && b2;
     }
 
     /**
@@ -48,9 +46,7 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
-        while (b1 == true || b2 == true)
-            return true;
-        return false;
+        return b1 || b2;
     }
 
 
